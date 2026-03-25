@@ -1,0 +1,22 @@
+node_modules/
+dist/
+*.log
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# 维护者发布说明（仅本地，不提交）
+PUBLISH.md
+
+# 本地适配器配置（可能含本机绝对路径，勿提交）
+.cursor-acp-adapter.json
+
+# npm 调试日志
+npm-debug.log*
+
+# 若曾在仓库根误跑 tsc，可能产生下列文件
+/vitest.config.js
+/vitest.config.d.ts
+/vitest.config.js.map
+/vitest.config.d.ts.map

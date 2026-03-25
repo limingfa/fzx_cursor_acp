@@ -1,0 +1,8 @@
+# 关于 PUBLISH.md
+
+本仓库将 **npm 发布与版本更新** 的详细步骤放在根目录的 **`PUBLISH.md`**。
+
+- **`PUBLISH.md`** 已加入 **`.gitignore`**，**不会**被 `git add` / 推送到 GitHub。
+- 维护者请在本地新建或复制 **`PUBLISH.md`**，并按团队流程填写（勿将 token、密码写入仓库）。
+
+若你克隆仓库后没有该文件，请向维护者索取模板，或根据 `package.json` 中的 `publishConfig` 与 npm 官方文档自行整理。

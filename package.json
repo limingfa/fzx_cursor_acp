@@ -1,0 +1,60 @@
+{
+  "name": "fzx-cursor-acp",
+  "version": "1.0.2",
+  "description": "Cursor ACP adapter bridge for acpx — stdio JSON-RPC bridge to Cursor CLI (agent acp)",
+  "main": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "bin": {
+    "fzx-cursor-acp": "bin/fzx-cursor-acp.js"
+  },
+  "files": [
+    "dist",
+    "bin",
+    "README.md",
+    "LICENSE",
+    ".cursor-acp-adapter.example.json"
+  ],
+  "scripts": {
+    "build": "tsc -p tsconfig.json",
+    "prepublishOnly": "npm run build",
+    "dev": "tsx src/main.ts",
+    "start": "node dist/main.js",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "keywords": [
+    "acp",
+    "cursor",
+    "acpx",
+    "agent-client-protocol",
+    "cursor-cli",
+    "stdio"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "author": "",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/limingfa/fzx_cursor_acp.git"
+  },
+  "bugs": {
+    "url": "https://github.com/limingfa/fzx_cursor_acp/issues"
+  },
+  "homepage": "https://github.com/limingfa/fzx_cursor_acp#readme",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.org/"
+  },
+  "license": "MIT",
+  "type": "commonjs",
+  "dependencies": {
+    "@agentclientprotocol/sdk": "^0.16.1",
+    "zod": "^4.3.6"
+  },
+  "devDependencies": {
+    "@types/node": "^25.5.0",
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "vitest": "^4.1.1"
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "cursor": {
+    "command": "agent",
+    "args": []
+  },
+  "permissionMode": "approve-reads",
+  "permissionTimeoutMs": 15000,
+  "sessionDir": "~/.cursor-acp-adapter/sessions"
+}
