@@ -1,15 +1,15 @@
 # fzx-cursor-acp
 
-[![GitHub](https://img.shields.io/badge/GitHub-limingfa%2Ffzx__cursor__acp-181717?logo=github)](https://github.com/limingfa/fzx_cursor_acp)
+[![GitHub](https://img.shields.io/badge/GitHub-ai-fzx%2Ffzx__cursor__acp-181717?logo=github)](https://github.com/ai-fzx/fzx_cursor_acp)
 [![npm](https://img.shields.io/npm/v/fzx-cursor-acp?label=npm)](https://www.npmjs.com/package/fzx-cursor-acp)
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](./LICENSE)
 [![Node.js](https://img.shields.io/badge/node-%3E%3D18-339933?logo=node.js&logoColor=white)](https://nodejs.org/)
 
 |  |  |
 | --- | --- |
-| **仓库** | [github.com/limingfa/fzx_cursor_acp](https://github.com/limingfa/fzx_cursor_acp) |
+| **仓库** | [github.com/ai-fzx/fzx_cursor_acp](https://github.com/ai-fzx/fzx_cursor_acp) |
 | **npm 包** | [`fzx-cursor-acp`](https://www.npmjs.com/package/fzx-cursor-acp) |
-| **问题反馈** | [Issues](https://github.com/limingfa/fzx_cursor_acp/issues) |
+| **问题反馈** | [Issues](https://github.com/ai-fzx/fzx_cursor_acp/issues) |
 
 ---
 
@@ -105,7 +105,7 @@ flowchart LR
 ## 快速开始（源码开发）
 
 ```bash
-git clone https://github.com/limingfa/fzx_cursor_acp.git
+git clone https://github.com/ai-fzx/fzx_cursor_acp.git
 cd fzx_cursor_acp
 npm install
 npm run build
@@ -324,7 +324,7 @@ powershell -ExecutionPolicy Bypass -File ./scripts/verify-acpx.ps1
 
 ## 许可与贡献
 
-本项目以 **MIT** 许可证发布（见 [`LICENSE`](./LICENSE)）。欢迎通过 [Issues](https://github.com/limingfa/fzx_cursor_acp/issues) 反馈；提交 PR 时请说明复现步骤与环境（OS、Node、acpx / OpenClaw 版本）。
+本项目以 **MIT** 许可证发布（见 [`LICENSE`](./LICENSE)）。欢迎通过 [Issues](https://github.com/ai-fzx/fzx_cursor_acp/issues) 反馈；提交 PR 时请说明复现步骤与环境（OS、Node、acpx / OpenClaw 版本）。
 
 ---
 
@@ -337,6 +337,6 @@ powershell -ExecutionPolicy Bypass -File ./scripts/verify-acpx.ps1
 | 联系人 | 风之馨 |
 | 身份 | 风之馨品牌创始人 |
 | 微信公众号 | **风之馨技术录** |
-| 公开联系 | 技术问题优先 [GitHub Issues](https://github.com/limingfa/fzx_cursor_acp/issues)；其它可通过公众号交流。 |
+| 公开联系 | 技术问题优先 [GitHub Issues](https://github.com/ai-fzx/fzx_cursor_acp/issues)；其它可通过公众号交流。 |
 
 欢迎通过 Issues、公众号交流本适配器、acpx 与 OpenClaw 集成。

@@ -36,12 +36,12 @@
   "author": "",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/limingfa/fzx_cursor_acp.git"
+    "url": "git+https://github.com/ai-fzx/fzx_cursor_acp.git"
   },
   "bugs": {
-    "url": "https://github.com/limingfa/fzx_cursor_acp/issues"
+    "url": "https://github.com/ai-fzx/fzx_cursor_acp/issues"
   },
-  "homepage": "https://github.com/limingfa/fzx_cursor_acp#readme",
+  "homepage": "https://github.com/ai-fzx/fzx_cursor_acp#readme",
   "publishConfig": {
     "registry": "https://registry.npmjs.org/"
   },
